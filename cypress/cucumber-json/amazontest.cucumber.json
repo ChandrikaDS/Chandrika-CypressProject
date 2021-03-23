@@ -1,0 +1,113 @@
+[
+  {
+    "description": "    Application Regression",
+    "keyword": "Feature",
+    "name": "End to End ecommerce Validation",
+    "line": 1,
+    "id": "end-to-end-ecommerce-validation",
+    "tags": [],
+    "uri": "amazontest.feature",
+    "elements": [
+      {
+        "id": "end-to-end-ecommerce-validation;login-into-the-application",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Login into the application",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open the Amazon Page",
+            "result": {
+              "status": "passed",
+              "duration": 2860000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I Sign In with email ID and password on continue",
+            "result": {
+              "status": "passed",
+              "duration": 4983000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I Validate with the Amazon home Page",
+            "result": {
+              "status": "passed",
+              "duration": 3499000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-ecommerce-validation;add-oneplus-8t-to-the-cart",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Add OnePlus 8T to the cart",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I search for the product",
+            "result": {
+              "status": "passed",
+              "duration": 4198000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I Select the product with price",
+            "result": {
+              "status": "passed",
+              "duration": 13236000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I add the product to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 1140000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "click on the cart Page",
+            "result": {
+              "status": "passed",
+              "duration": 5140000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "then delete the item in the cart",
+            "result": {
+              "status": "passed",
+              "duration": 519000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

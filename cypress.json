@@ -1,0 +1,13 @@
+{
+ "testFiles": "**/*.feature",
+
+
+ "defaultCommandTimeout": 8000,
+ "env":
+ {
+     "url":"https://www.amazon.in"
+ },
+
+     "reporting": "mochawesome"
+
+}
