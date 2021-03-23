@@ -5,7 +5,9 @@
   "main": "index.js",
   "cypress": "cypress",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules\\.bin\\cypress run",
+    "headTest": "npm run test -- --headed",
+    "headChromeTest": "npm run test -- --browser chrome",
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true,
