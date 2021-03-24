@@ -8,6 +8,6 @@ Run npm install
 
 Provide a valid github username and password to pull all the repositories
 
-npm test to the same amazon test flow
+npm test to the check the amazon website test flow
 
 
